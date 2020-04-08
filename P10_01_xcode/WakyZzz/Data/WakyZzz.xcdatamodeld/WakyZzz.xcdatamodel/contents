@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AlertRing" representedClassName=".AlertRing" syncable="YES">
+        <attribute name="creationDateID" attributeType="String"/>
+        <attribute name="enabled" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatFri" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatMon" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatSat" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatSun" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatThu" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatTue" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="repeatWed" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="time" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="AlertRing" positionX="0" positionY="0" width="128" height="193"/>
+    </elements>
+</model>

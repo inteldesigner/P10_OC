@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0424EB5420BEF89000E15E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424EB5320BEF89000E15E46 /* AppDelegate.swift */; };
+		0424EB5620BEF89000E15E46 /* AlarmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424EB5520BEF89000E15E46 /* AlarmsViewController.swift */; };
+		0424EB5920BEF89000E15E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0424EB5720BEF89000E15E46 /* Main.storyboard */; };
+		0424EB5B20BEF89100E15E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0424EB5A20BEF89100E15E46 /* Assets.xcassets */; };
+		0424EB5E20BEF89100E15E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0424EB5C20BEF89100E15E46 /* LaunchScreen.storyboard */; };
+		0424EB6920BEF93F00E15E46 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424EB6820BEF93F00E15E46 /* Alarm.swift */; };
+		0424EB6B20BEF96400E15E46 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424EB6A20BEF96400E15E46 /* Action.swift */; };
+		0424EB6D20BF022900E15E46 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424EB6C20BF022900E15E46 /* AlarmTableViewCell.swift */; };
+		0424EB6F20BF0FAE00E15E46 /* SettingAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424EB6E20BF0FAE00E15E46 /* SettingAlarmViewController.swift */; };
+		1581E9AB2408787B002F4D4F /* WakyZzz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1581E9A92408787B002F4D4F /* WakyZzz.xcdatamodeld */; };
+		1581E9B2240A70DF002F4D4F /* ManagingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1581E9B1240A70DF002F4D4F /* ManagingData.swift */; };
+		1581E9C02415575D002F4D4F /* AlertSound+CDClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1581E9BE2415575D002F4D4F /* AlertSound+CDClass.swift */; };
+		1581E9C12415575D002F4D4F /* AlertSound+CDProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1581E9BF2415575D002F4D4F /* AlertSound+CDProperties.swift */; };
+		1581E9C824276922002F4D4F /* NotificationUserExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1581E9C724276922002F4D4F /* NotificationUserExtended.swift */; };
+		1581E9CA24276945002F4D4F /* NotificationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1581E9C924276945002F4D4F /* NotificationUser.swift */; };
+		1581E9D82428138E002F4D4F /* secondSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1581E9D72428138E002F4D4F /* secondSound.mp3 */; };
+		1581E9DA2429183E002F4D4F /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1581E9D92429183E002F4D4F /* Messages.swift */; };
+		1581E9DD242A8457002F4D4F /* Executions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1581E9DC242A8457002F4D4F /* Executions.swift */; };
+		1581E9EE242CC7E2002F4D4F /* AlarmTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1581E9ED242CC7E2002F4D4F /* AlarmTestCase.swift */; };
+		4C6F3C42243C983900649502 /* primarySound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F3C41243C983900649502 /* primarySound.mp3 */; };
+		4C6F3C44243C987300649502 /* frighteningSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4C6F3C43243C987300649502 /* frighteningSound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1581E9E8242CC652002F4D4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0424EB4820BEF89000E15E46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0424EB4F20BEF89000E15E46;
+			remoteInfo = WakyZzz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0424EB5020BEF89000E15E46 /* WakyZzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakyZzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0424EB5320BEF89000E15E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0424EB5520BEF89000E15E46 /* AlarmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmsViewController.swift; sourceTree = "<group>"; };
+		0424EB5820BEF89000E15E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0424EB5A20BEF89100E15E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0424EB5D20BEF89100E15E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0424EB5F20BEF89100E15E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0424EB6820BEF93F00E15E46 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		0424EB6A20BEF96400E15E46 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		0424EB6C20BF022900E15E46 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		0424EB6E20BF0FAE00E15E46 /* SettingAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingAlarmViewController.swift; sourceTree = "<group>"; };
+		1581E9AA2408787B002F4D4F /* WakyZzz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WakyZzz.xcdatamodel; sourceTree = "<group>"; };
+		1581E9B1240A70DF002F4D4F /* ManagingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagingData.swift; sourceTree = "<group>"; };
+		1581E9BE2415575D002F4D4F /* AlertSound+CDClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertSound+CDClass.swift"; sourceTree = "<group>"; };
+		1581E9BF2415575D002F4D4F /* AlertSound+CDProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertSound+CDProperties.swift"; sourceTree = "<group>"; };
+		1581E9C724276922002F4D4F /* NotificationUserExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUserExtended.swift; sourceTree = "<group>"; };
+		1581E9C924276945002F4D4F /* NotificationUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUser.swift; sourceTree = "<group>"; };
+		1581E9D72428138E002F4D4F /* secondSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = secondSound.mp3; sourceTree = "<group>"; };
+		1581E9D92429183E002F4D4F /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		1581E9DC242A8457002F4D4F /* Executions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executions.swift; sourceTree = "<group>"; };
+		1581E9E3242CC652002F4D4F /* WakyZzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakyZzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1581E9E7242CC652002F4D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1581E9ED242CC7E2002F4D4F /* AlarmTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTestCase.swift; sourceTree = "<group>"; };
+		4C6F3C41243C983900649502 /* primarySound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = primarySound.mp3; sourceTree = "<group>"; };
+		4C6F3C43243C987300649502 /* frighteningSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frighteningSound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0424EB4D20BEF89000E15E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1581E9E0242CC652002F4D4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0424EB4720BEF89000E15E46 = {
+			isa = PBXGroup;
+			children = (
+				0424EB5220BEF89000E15E46 /* WakyZzz */,
+				1581E9E4242CC652002F4D4F /* WakyZzzTests */,
+				0424EB5120BEF89000E15E46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0424EB5120BEF89000E15E46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0424EB5020BEF89000E15E46 /* WakyZzz.app */,
+				1581E9E3242CC652002F4D4F /* WakyZzzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0424EB5220BEF89000E15E46 /* WakyZzz */ = {
+			isa = PBXGroup;
+			children = (
+				1581E9AC24087885002F4D4F /* Data */,
+				1581E97D2403DEAC002F4D4F /* Model */,
+				1581E9822403DF66002F4D4F /* View */,
+				1581E97E2403DEC4002F4D4F /* Controller */,
+				1581E97F2403DF02002F4D4F /* Components */,
+				1581E9C624276861002F4D4F /* Notifications */,
+				1539FE402430EE2A00F017C2 /* Supportingfiles */,
+				0424EB5F20BEF89100E15E46 /* Info.plist */,
+			);
+			path = WakyZzz;
+			sourceTree = "<group>";
+		};
+		1539FE402430EE2A00F017C2 /* Supportingfiles */ = {
+			isa = PBXGroup;
+			children = (
+				0424EB5A20BEF89100E15E46 /* Assets.xcassets */,
+				0424EB5320BEF89000E15E46 /* AppDelegate.swift */,
+				0424EB5C20BEF89100E15E46 /* LaunchScreen.storyboard */,
+			);
+			path = Supportingfiles;
+			sourceTree = "<group>";
+		};
+		1581E97D2403DEAC002F4D4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0424EB6820BEF93F00E15E46 /* Alarm.swift */,
+				0424EB6A20BEF96400E15E46 /* Action.swift */,
+				1581E9D92429183E002F4D4F /* Messages.swift */,
+				1581E9DC242A8457002F4D4F /* Executions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1581E97E2403DEC4002F4D4F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0424EB5520BEF89000E15E46 /* AlarmsViewController.swift */,
+				0424EB6E20BF0FAE00E15E46 /* SettingAlarmViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1581E97F2403DF02002F4D4F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1581E9812403DF32002F4D4F /* Sounds */,
+				1581E9802403DF13002F4D4F /* Custom Cell */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1581E9802403DF13002F4D4F /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0424EB6C20BF022900E15E46 /* AlarmTableViewCell.swift */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		1581E9812403DF32002F4D4F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F3C41243C983900649502 /* primarySound.mp3 */,
+				1581E9D72428138E002F4D4F /* secondSound.mp3 */,
+				4C6F3C43243C987300649502 /* frighteningSound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		1581E9822403DF66002F4D4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0424EB5720BEF89000E15E46 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1581E9AC24087885002F4D4F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1581E9BE2415575D002F4D4F /* AlertSound+CDClass.swift */,
+				1581E9BF2415575D002F4D4F /* AlertSound+CDProperties.swift */,
+				1581E9A92408787B002F4D4F /* WakyZzz.xcdatamodeld */,
+				1581E9B1240A70DF002F4D4F /* ManagingData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1581E9C624276861002F4D4F /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				1581E9C724276922002F4D4F /* NotificationUserExtended.swift */,
+				1581E9C924276945002F4D4F /* NotificationUser.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		1581E9E4242CC652002F4D4F /* WakyZzzTests */ = {
+			isa = PBXGroup;
+			children = (
+				1581E9E7242CC652002F4D4F /* Info.plist */,
+				1581E9ED242CC7E2002F4D4F /* AlarmTestCase.swift */,
+			);
+			path = WakyZzzTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0424EB4F20BEF89000E15E46 /* WakyZzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0424EB6220BEF89100E15E46 /* Build configuration list for PBXNativeTarget "WakyZzz" */;
+			buildPhases = (
+				0424EB4C20BEF89000E15E46 /* Sources */,
+				0424EB4D20BEF89000E15E46 /* Frameworks */,
+				0424EB4E20BEF89000E15E46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakyZzz;
+			productName = WakyZzz;
+			productReference = 0424EB5020BEF89000E15E46 /* WakyZzz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1581E9E2242CC652002F4D4F /* WakyZzzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1581E9EA242CC652002F4D4F /* Build configuration list for PBXNativeTarget "WakyZzzTests" */;
+			buildPhases = (
+				1581E9DF242CC652002F4D4F /* Sources */,
+				1581E9E0242CC652002F4D4F /* Frameworks */,
+				1581E9E1242CC652002F4D4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1581E9E9242CC652002F4D4F /* PBXTargetDependency */,
+			);
+			name = WakyZzzTests;
+			productName = WakyZzzTests;
+			productReference = 1581E9E3242CC652002F4D4F /* WakyZzzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0424EB4820BEF89000E15E46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Olga Volkova OC";
+				TargetAttributes = {
+					0424EB4F20BEF89000E15E46 = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1130;
+					};
+					1581E9E2242CC652002F4D4F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0424EB4F20BEF89000E15E46;
+					};
+				};
+			};
+			buildConfigurationList = 0424EB4B20BEF89000E15E46 /* Build configuration list for PBXProject "WakyZzz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0424EB4720BEF89000E15E46;
+			productRefGroup = 0424EB5120BEF89000E15E46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0424EB4F20BEF89000E15E46 /* WakyZzz */,
+				1581E9E2242CC652002F4D4F /* WakyZzzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0424EB4E20BEF89000E15E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F3C42243C983900649502 /* primarySound.mp3 in Resources */,
+				0424EB5E20BEF89100E15E46 /* LaunchScreen.storyboard in Resources */,
+				1581E9D82428138E002F4D4F /* secondSound.mp3 in Resources */,
+				4C6F3C44243C987300649502 /* frighteningSound.mp3 in Resources */,
+				0424EB5B20BEF89100E15E46 /* Assets.xcassets in Resources */,
+				0424EB5920BEF89000E15E46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1581E9E1242CC652002F4D4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0424EB4C20BEF89000E15E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0424EB5620BEF89000E15E46 /* AlarmsViewController.swift in Sources */,
+				0424EB6D20BF022900E15E46 /* AlarmTableViewCell.swift in Sources */,
+				1581E9C824276922002F4D4F /* NotificationUserExtended.swift in Sources */,
+				0424EB6F20BF0FAE00E15E46 /* SettingAlarmViewController.swift in Sources */,
+				1581E9C02415575D002F4D4F /* AlertSound+CDClass.swift in Sources */,
+				0424EB5420BEF89000E15E46 /* AppDelegate.swift in Sources */,
+				0424EB6B20BEF96400E15E46 /* Action.swift in Sources */,
+				1581E9CA24276945002F4D4F /* NotificationUser.swift in Sources */,
+				1581E9AB2408787B002F4D4F /* WakyZzz.xcdatamodeld in Sources */,
+				1581E9B2240A70DF002F4D4F /* ManagingData.swift in Sources */,
+				0424EB6920BEF93F00E15E46 /* Alarm.swift in Sources */,
+				1581E9DD242A8457002F4D4F /* Executions.swift in Sources */,
+				1581E9C12415575D002F4D4F /* AlertSound+CDProperties.swift in Sources */,
+				1581E9DA2429183E002F4D4F /* Messages.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1581E9DF242CC652002F4D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1581E9EE242CC7E2002F4D4F /* AlarmTestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1581E9E9242CC652002F4D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0424EB4F20BEF89000E15E46 /* WakyZzz */;
+			targetProxy = 1581E9E8242CC652002F4D4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0424EB5720BEF89000E15E46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0424EB5820BEF89000E15E46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0424EB5C20BEF89100E15E46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0424EB5D20BEF89100E15E46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0424EB6020BEF89100E15E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0424EB6120BEF89100E15E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0424EB6320BEF89100E15E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35DZC633XF;
+				INFOPLIST_FILE = WakyZzz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericstein.WakyZzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0424EB6420BEF89100E15E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35DZC633XF;
+				INFOPLIST_FILE = WakyZzz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericstein.WakyZzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1581E9EB242CC652002F4D4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8SYKS5XRJ;
+				INFOPLIST_FILE = WakyZzzTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadmurad.WakyZzzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakyZzz.app/WakyZzz";
+			};
+			name = Debug;
+		};
+		1581E9EC242CC652002F4D4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8SYKS5XRJ;
+				INFOPLIST_FILE = WakyZzzTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmadmurad.WakyZzzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WakyZzz.app/WakyZzz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0424EB4B20BEF89000E15E46 /* Build configuration list for PBXProject "WakyZzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0424EB6020BEF89100E15E46 /* Debug */,
+				0424EB6120BEF89100E15E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0424EB6220BEF89100E15E46 /* Build configuration list for PBXNativeTarget "WakyZzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0424EB6320BEF89100E15E46 /* Debug */,
+				0424EB6420BEF89100E15E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1581E9EA242CC652002F4D4F /* Build configuration list for PBXNativeTarget "WakyZzzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1581E9EB242CC652002F4D4F /* Debug */,
+				1581E9EC242CC652002F4D4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1581E9A92408787B002F4D4F /* WakyZzz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1581E9AA2408787B002F4D4F /* WakyZzz.xcdatamodel */,
+			);
+			currentVersion = 1581E9AA2408787B002F4D4F /* WakyZzz.xcdatamodel */;
+			path = WakyZzz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0424EB4820BEF89000E15E46 /* Project object */;
+}
